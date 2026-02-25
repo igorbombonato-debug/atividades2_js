@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante igão</title>
+</head>
+<body>
+    <script>
+        let comida = prompt("Qual prato você deseja?").toUpperCase();
+
+        switch(comida){
+            case "PIZZA":
+                document.write("Ótima escolha, a pizza é deliciosa!");
+                break;
+            case "HAMBURGUER":
+                document.write("Ótima escolha, o hamburguer é delicioso!");
+                 break;
+            case "SUSHI":
+                document.write("Ótima escolha, o sushi é delicioso!");
+                 break;
+            case "SALADA":
+                document.write("Ótima escolha, a salada é deliciosa!");
+                 break;
+                    default:
+                    document.write("Prato indisponivel,em nosso cardapio temos: Pizza, Hamburguer, Sushi e Salada");
+                     break;
+        }
+    </script>
+</body>
+</html>
